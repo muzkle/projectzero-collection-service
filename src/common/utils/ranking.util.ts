@@ -1,4 +1,4 @@
-import { Rarity } from '@projectzero/contracts';
+import { Rarity } from '@muzkle/contracts';
 
 export const RARITY_SCORE: Record<Rarity, number> = {
   [Rarity.COMMON]: 1,

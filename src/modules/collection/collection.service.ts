@@ -7,7 +7,7 @@ import {
   RankingEntryDto,
   Rarity,
   UserStickerDto,
-} from '@projectzero/contracts';
+} from '@muzkle/contracts';
 import { UserSticker } from '../stickers/entities/user-sticker.entity';
 import { StickerRef } from '../stickers/entities/sticker-ref.entity';
 import { IdentityClient } from '../../infrastructure/clients/identity.client';

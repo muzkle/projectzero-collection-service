@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { DataSource, Repository } from 'typeorm';
-import { AcquiredVia, ErrorCode } from '@projectzero/contracts';
+import { AcquiredVia, ErrorCode } from '@muzkle/contracts';
 import { UserSticker } from '../stickers/entities/user-sticker.entity';
 import { StickerRef } from '../stickers/entities/sticker-ref.entity';
 import { CatalogClient } from '../../infrastructure/clients/catalog.client';

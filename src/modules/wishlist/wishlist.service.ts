@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { In, Repository } from 'typeorm';
-import { ErrorCode, WishlistItemDto } from '@projectzero/contracts';
+import { ErrorCode, WishlistItemDto } from '@muzkle/contracts';
 import { WishlistItem } from './entities/wishlist-item.entity';
 import { StickerRef } from '../stickers/entities/sticker-ref.entity';
 import { UserSticker } from '../stickers/entities/user-sticker.entity';

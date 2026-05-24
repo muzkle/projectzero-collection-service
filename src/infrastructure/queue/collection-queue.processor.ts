@@ -10,7 +10,7 @@ import {
   QUEUE_NAMES,
   Rarity,
   StickerPublishedEvent,
-} from '@projectzero/contracts';
+} from '@muzkle/contracts';
 import { StickerRef } from '../../modules/stickers/entities/sticker-ref.entity';
 import { ProcessedEvent } from '../../modules/events/entities/processed-event.entity';
 import { MintService } from '../../modules/mint/mint.service';

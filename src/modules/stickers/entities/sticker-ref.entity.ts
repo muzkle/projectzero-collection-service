@@ -1,5 +1,5 @@
 import { Column, Entity, PrimaryColumn } from 'typeorm';
-import { Rarity } from '@projectzero/contracts';
+import { Rarity } from '@muzkle/contracts';
 
 @Entity('sticker_refs')
 export class StickerRef {

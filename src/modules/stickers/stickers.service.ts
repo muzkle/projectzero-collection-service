@@ -6,7 +6,7 @@ import {
   ErrorCode,
   MissionProgressDto,
   UserStickerDto,
-} from '@projectzero/contracts';
+} from '@muzkle/contracts';
 import { StickerRef } from './entities/sticker-ref.entity';
 import { UserSticker } from './entities/user-sticker.entity';
 import { MissionProgress } from '../missions/entities/mission-progress.entity';

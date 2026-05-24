@@ -6,7 +6,7 @@ import {
   PrimaryGeneratedColumn,
   Unique,
 } from 'typeorm';
-import { AcquiredVia } from '@projectzero/contracts';
+import { AcquiredVia } from '@muzkle/contracts';
 
 @Entity('user_stickers')
 @Unique(['userId', 'stickerId'])

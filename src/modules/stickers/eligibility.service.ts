@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { EligibilityDto, ErrorCode } from '@projectzero/contracts';
+import { EligibilityDto, ErrorCode } from '@muzkle/contracts';
 import { StickerRef } from '../stickers/entities/sticker-ref.entity';
 import { MissionProgress } from '../missions/entities/mission-progress.entity';
 import { UserSticker } from '../stickers/entities/user-sticker.entity';

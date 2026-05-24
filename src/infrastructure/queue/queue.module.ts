@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { BullModule } from '@nestjs/bullmq';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { QUEUE_NAMES } from '@projectzero/contracts';
+import { QUEUE_NAMES } from '@muzkle/contracts';
 import { CollectionQueueProcessor } from './collection-queue.processor';
 import { StickerRef } from '../../modules/stickers/entities/sticker-ref.entity';
 import { MissionProgress } from '../../modules/missions/entities/mission-progress.entity';
